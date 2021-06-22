@@ -1,0 +1,62 @@
+{
+  "_id": "page.what-data-would-you-like",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.what-data-would-you-like--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__9",
+          "_type": "checkbox",
+          "label": "Recruitment/vetting records",
+          "name": "auto_name__9"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "label": "Attendance records",
+          "name": "auto_name__10"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "label": "Performance management data",
+          "name": "auto_name__11"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Request information from an individual",
+          "name": "auto_name__12"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "label": "Pension data",
+          "name": "auto_name__13"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "label": "Personnel file",
+          "name": "auto_name__14"
+        },
+        {
+          "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15--text.auto_name__16",
+            "_type": "text",
+            "label": "Please specify",
+            "name": "auto_name__16"
+          },
+          "label": "Other",
+          "name": "auto_name__15"
+        }
+      ],
+      "legend": "What data would you like?"
+    }
+  ],
+  "url": "what-data-would-you-like"
+}

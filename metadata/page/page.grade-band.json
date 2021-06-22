@@ -1,0 +1,14 @@
+{
+  "_id": "page.grade-band",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.grade-band--text.auto_name__21",
+      "_type": "text",
+      "hint": "e.g. Band C, Grade 7",
+      "label": "What is your grade/band?",
+      "name": "auto_name__21"
+    }
+  ],
+  "url": "grade-band"
+}

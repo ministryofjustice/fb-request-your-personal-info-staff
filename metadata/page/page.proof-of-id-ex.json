@@ -1,0 +1,28 @@
+{
+  "_id": "page.proof-of-id-ex",
+  "_type": "page.form",
+  "body": "This can be a copy of a recent utility bill (dated within the last three months) and a copy of the photograph page of your passport or driving licence.",
+  "components": [
+    {
+      "_id": "page.proof-of-id-ex--upload.auto_name__3",
+      "_type": "upload",
+      "label": "Upload a copy of a recent utility bill",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.proof-of-id-ex--upload.auto_name__4",
+      "_type": "upload",
+      "label": "Upload a copy of your passport or driving licence ",
+      "name": "auto_name__4"
+    }
+  ],
+  "heading": "Proof of identity",
+  "show": {
+    "identifier": "auto_name__1",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "steps": [],
+  "url": "proof-of-id-ex"
+}

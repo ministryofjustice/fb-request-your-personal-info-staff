@@ -1,0 +1,26 @@
+{
+  "_id": "page.time-period",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.time-period--date.auto_name__22",
+      "_type": "date",
+      "legend": "Start date",
+      "name": "auto_name__22",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.time-period--date.auto_name__23",
+      "_type": "date",
+      "legend": "End date",
+      "name": "auto_name__23",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "What is the time period of the data you are requesting? (optional)",
+  "url": "time-period"
+}

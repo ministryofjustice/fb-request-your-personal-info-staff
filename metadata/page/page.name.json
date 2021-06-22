@@ -1,0 +1,38 @@
+{
+  "_id": "page.name",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.name--text.auto_name__5",
+      "_type": "text",
+      "label": "First name",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.name--text.auto_name__6",
+      "_type": "text",
+      "label": "Middle name (optional)",
+      "name": "auto_name__6",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.name--text.auto_name__7",
+      "_type": "text",
+      "label": "Last name",
+      "name": "auto_name__7"
+    },
+    {
+      "_id": "page.name--text.auto_name__8",
+      "_type": "text",
+      "label": "Any other names you might have been known by (optional)",
+      "name": "auto_name__8",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "What is your name?",
+  "url": "name"
+}

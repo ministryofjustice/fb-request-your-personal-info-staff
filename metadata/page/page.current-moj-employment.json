@@ -1,0 +1,33 @@
+{
+  "_id": "page.current-moj-employment",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.current-moj-employment--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.current-moj-employment--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Current employee or left within the last 2 years",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.current-moj-employment--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Ex-employee who left over 2 years ago",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.current-moj-employment--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Applicant",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "What is your current MOJ employment status?",
+      "name": "auto_name__1"
+    }
+  ],
+  "url": "current-moj-employment"
+}

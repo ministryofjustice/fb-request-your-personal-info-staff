@@ -1,0 +1,13 @@
+{
+  "_id": "page.national-insurance-number",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.national-insurance-number--text.auto_name__18",
+      "_type": "text",
+      "label": "What is your National Insurance number?",
+      "name": "auto_name__18"
+    }
+  ],
+  "url": "national-insurance-number"
+}

@@ -30,7 +30,16 @@
     "page.date-of-birth",
     "page.national-insurance-number",
     "page.employee-number",
-    "page.time-period"
+    "page.time-period",
+    "page.recruitment-vetting-applicant-id",
+    "page.attendance-data",
+    "page.performance-management",
+    "page.information-from-another-indivdual-details",
+    "page.retirement-pension",
+    "page.other-information",
+    "page.receive-data",
+    "page.check-answers",
+    "page.application-complete"
   ],
   "url": "/"
 }

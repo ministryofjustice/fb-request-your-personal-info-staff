@@ -1,0 +1,40 @@
+{
+  "_id": "page.receive-data",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.receive-data--radios.auto_name__40",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__4",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__4--email.auto_name__41",
+            "_type": "email",
+            "label": "Email address",
+            "name": "email-address"
+          },
+          "label": "By email",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__5",
+          "_type": "radio",
+          "label": "By post",
+          "value": "By post"
+        }
+      ],
+      "legend": "How would you like to receive your data?",
+      "name": "auto_name__40"
+    }
+  ],
+  "url": "receive-data"
+}

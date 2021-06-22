@@ -45,12 +45,6 @@
         {
           "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15",
           "_type": "checkbox",
-          "conditionalComponent": {
-            "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15--text.auto_name__16",
-            "_type": "text",
-            "label": "Please specify",
-            "name": "auto_name__16"
-          },
           "label": "Other",
           "name": "auto_name__15"
         }

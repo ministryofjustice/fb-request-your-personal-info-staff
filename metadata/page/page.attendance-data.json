@@ -1,0 +1,51 @@
+{
+  "_id": "page.attendance-data",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.attendance-data--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.attendance-data--checkboxes--checkbox.auto_name__26",
+          "_type": "checkbox",
+          "label": "Sickness",
+          "name": "auto_name__26"
+        },
+        {
+          "_id": "page.attendance-data--checkboxes--checkbox.auto_name__27",
+          "_type": "checkbox",
+          "label": "Return to work notes",
+          "name": "auto_name__27"
+        },
+        {
+          "_id": "page.attendance-data--checkboxes--checkbox.auto_name__28",
+          "_type": "checkbox",
+          "label": "Sick leave excusal",
+          "name": "auto_name__28"
+        },
+        {
+          "_id": "page.attendance-data--checkboxes--checkbox.auto_name__29",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.attendance-data--checkboxes--checkbox.auto_name__29--text.auto_name__30",
+            "_type": "text",
+            "label": "Please specify",
+            "name": "auto_name__30"
+          },
+          "label": "Other",
+          "name": "auto_name__29"
+        }
+      ],
+      "legend": "What attendance data would you like?",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__10",
+    "operator": "defined"
+  },
+  "url": "attendance-data"
+}

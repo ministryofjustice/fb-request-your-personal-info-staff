@@ -1,0 +1,48 @@
+{
+  "_id": "page.performance-management",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.performance-management--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.performance-management--checkboxes--checkbox.auto_name__31",
+          "_type": "checkbox",
+          "label": "Grievance data",
+          "name": "auto_name__31"
+        },
+        {
+          "_id": "page.performance-management--checkboxes--checkbox.auto_name__32",
+          "_type": "checkbox",
+          "label": "Investigation data",
+          "name": "auto_name__32"
+        },
+        {
+          "_id": "page.performance-management--checkboxes--checkbox.auto_name__33",
+          "_type": "checkbox",
+          "label": "Conduct and discipline data",
+          "name": "auto_name__33"
+        },
+        {
+          "_id": "page.performance-management--checkboxes--checkbox.auto_name__34",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.performance-management--checkboxes--checkbox.auto_name__34--text.auto_name__35",
+            "_type": "text",
+            "label": "Please specify",
+            "name": "auto_name__35"
+          },
+          "label": "Other",
+          "name": "auto_name__34"
+        }
+      ],
+      "legend": "What performance management data would you like?"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__11",
+    "operator": "defined"
+  },
+  "url": "performance-management"
+}

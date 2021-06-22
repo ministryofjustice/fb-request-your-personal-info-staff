@@ -1,0 +1,17 @@
+{
+  "_id": "page.retirement-pension",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.retirement-pension--textarea.auto_name__38",
+      "_type": "textarea",
+      "label": "What information do you want about your retirement or pension?",
+      "name": "auto_name__38"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__13",
+    "operator": "defined"
+  },
+  "url": "retirement-pension"
+}

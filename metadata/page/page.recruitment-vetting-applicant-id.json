@@ -1,0 +1,22 @@
+{
+  "_id": "page.recruitment-vetting-applicant-id",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.recruitment-vetting-applicant-id--text.auto_name__24",
+      "_type": "text",
+      "label": "What is your applicant ID?",
+      "name": "auto_name__24"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "Recruitment/ vetting records",
+  "show": {
+    "identifier": "auto_name__9",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.recruitment-vetting-applicant-vacancy-number"
+  ],
+  "url": "recruitment-vetting-applicant-id"
+}

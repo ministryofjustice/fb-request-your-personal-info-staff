@@ -37,7 +37,10 @@
           "name": "auto_name__34"
         }
       ],
-      "legend": "What performance management data would you like?"
+      "legend": "What performance management data would you like?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "show": {

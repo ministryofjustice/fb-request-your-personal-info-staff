@@ -12,16 +12,6 @@
           "$option": true,
           "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__4",
           "_type": "radio",
-          "conditionalComponent": {
-            "$component": true,
-            "$control": true,
-            "$definition": true,
-            "$field": true,
-            "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__4--email.auto_name__41",
-            "_type": "email",
-            "label": "Email address",
-            "name": "email-address"
-          },
           "label": "By email",
           "value": "auto_value__4"
         },

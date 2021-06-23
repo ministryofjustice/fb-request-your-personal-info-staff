@@ -49,7 +49,10 @@
           "name": "auto_name__15"
         }
       ],
-      "legend": "What data would you like?"
+      "legend": "What data would you like?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "url": "what-data-would-you-like"

@@ -11,7 +11,10 @@
       "_id": "page.proof-of-id-current--upload.auto_name__2",
       "_type": "upload",
       "label": "Upload a copy of your wage slip (optional)",
-      "name": "auto_name__2"
+      "name": "auto_name__2",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "Proof of identity",
@@ -20,6 +23,8 @@
     "operator": "is",
     "value": "auto_value__1"
   },
-  "steps": [],
+  "steps": [
+    "page.proof-of-id-current-check"
+  ],
   "url": "proof-of-id-current"
 }

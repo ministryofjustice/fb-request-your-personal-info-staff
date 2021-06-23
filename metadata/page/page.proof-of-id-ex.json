@@ -1,12 +1,12 @@
 {
   "_id": "page.proof-of-id-ex",
   "_type": "page.form",
-  "body": "This can be a copy of a recent utility bill (dated within the last three months) and a copy of the photograph page of your passport or driving licence.",
+  "body": "This can be a copy of a recent utility bill (dated within the last three months) or, if you were recently an employee, a copy of your wage slip (dated within the last three months). Please also provide a copy of the photograph page of your passport or driving licence.",
   "components": [
     {
       "_id": "page.proof-of-id-ex--upload.auto_name__3",
       "_type": "upload",
-      "label": "Upload a copy of a recent utility bill",
+      "label": "Upload a copy of a recent utility bill or your Ministry of Justice wage slip",
       "name": "auto_name__3"
     },
     {

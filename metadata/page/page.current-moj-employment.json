@@ -9,13 +9,13 @@
         {
           "_id": "page.current-moj-employment--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
-          "label": "Current employee or left within the last 2 years",
+          "label": "Current employee",
           "value": "auto_value__1"
         },
         {
           "_id": "page.current-moj-employment--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
-          "label": "Ex-employee who left over 2 years ago",
+          "label": "Ex-employee",
           "value": "auto_value__2"
         },
         {

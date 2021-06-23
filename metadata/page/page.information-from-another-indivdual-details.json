@@ -4,68 +4,110 @@
   "components": [
     {
       "$component": true,
+      "$control": true,
       "$definition": true,
+      "$fieldset": true,
       "$grouping": true,
-      "_id": "page.information-from-another-indivdual-details--section",
-      "_type": "section",
+      "_id": "page.information-from-another-indivdual-details--fieldset",
+      "_type": "fieldset",
       "components": [
         {
-          "_id": "page.information-from-another-indivdual-details--section--text.auto_name__16",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__47",
           "_type": "text",
           "label": "Individual's first name",
-          "name": "auto_name__16",
-          "repeatable": true,
-          "repeatableAdd": "Add another individual"
+          "name": "auto_name__47"
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--text.auto_name__36",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__48",
           "_type": "text",
           "label": "Individual's last name",
-          "name": "auto_name__36"
+          "name": "auto_name__48"
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--email.auto_name__41",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--email.auto_name__49",
           "_type": "email",
           "label": "Individual's email address",
-          "name": "auto_name__41"
+          "name": "auto_name__49"
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--text.auto_name__42",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__50",
           "_type": "text",
           "label": "Individual's organisation/directorate (optional)",
-          "name": "auto_name__42",
+          "name": "auto_name__50",
           "validation": {
             "required": false
           }
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--number.auto_name__43",
-          "_type": "number",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__51",
+          "_type": "text",
           "label": "Individual's work phone number (optional)",
-          "name": "auto_name__43",
+          "name": "auto_name__51",
           "validation": {
             "required": false
           }
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--text.auto_name__44",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__52",
           "_type": "text",
           "label": "Individual's grade/band (optional)",
-          "name": "auto_name__44"
+          "name": "auto_name__52",
+          "validation": {
+            "required": false
+          }
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--text.auto_name__45",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--text.auto_name__53",
           "_type": "text",
           "label": "Individual's role (optional)",
-          "name": "auto_name__45"
+          "name": "auto_name__53",
+          "validation": {
+            "required": false
+          }
         },
         {
-          "_id": "page.information-from-another-indivdual-details--section--textarea.auto_name__46",
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.information-from-another-indivdual-details--fieldset--textarea.auto_name__54",
           "_type": "textarea",
           "label": "What data do you require from the individual?",
-          "name": "auto_name__46"
+          "name": "auto_name__54"
         }
-      ]
+      ],
+      "legend": "Individual",
+      "namespace": "namespace_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add another individual"
     }
   ],
   "enableSteps": true,

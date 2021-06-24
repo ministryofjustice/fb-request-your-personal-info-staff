@@ -18,7 +18,7 @@
           "_id": "page.proof-of-id-current2--2--radios.auto_name__41--radio.auto_value__1--2",
           "_type": "radio",
           "label": "By uploading a copy of my wage slip ",
-          "value": "auto_value__1"
+          "value": "wage_slip"
         }
       ],
       "legend": "How would you like to prove your identity?",

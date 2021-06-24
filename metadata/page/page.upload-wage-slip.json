@@ -12,7 +12,7 @@
   "show": {
     "identifier": "auto_name__41",
     "operator": "is",
-    "value": "auto_value__1"
+    "value": "wage_slip"
   },
   "steps": [],
   "url": "upload-wage-slip"

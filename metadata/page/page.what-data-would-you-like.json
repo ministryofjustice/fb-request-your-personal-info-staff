@@ -27,7 +27,7 @@
         {
           "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
-          "label": "Request information from an individual",
+          "label": "Information from an individual",
           "name": "auto_name__12"
         },
         {
@@ -55,5 +55,11 @@
       }
     }
   ],
+  "show": {
+    "identifier": "auto_name__1",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__3"
+  },
   "url": "what-data-would-you-like"
 }

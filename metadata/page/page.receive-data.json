@@ -3,27 +3,58 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.receive-data--radios.auto_name__40",
+      "_id": "page.receive-data--radios.auto_name__16",
       "_type": "radios",
       "items": [
         {
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__4",
+          "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__4",
           "_type": "radio",
-          "label": "By email",
+          "conditionalComponent": {
+            "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__4--email.auto_name__36",
+            "_type": "email",
+            "label": "Email address",
+            "name": "auto_name__36"
+          },
+          "label": "Email",
           "value": "auto_value__4"
         },
         {
-          "_id": "page.receive-data--radios.auto_name__40--radio.auto_value__5",
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__5",
           "_type": "radio",
-          "label": "By post",
-          "value": "By post"
+          "conditionalComponent": {
+            "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__5--fieldset",
+            "_type": "fieldset",
+            "components": [
+              {
+                "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__5--fieldset--email.auto_name__40",
+                "_type": "email",
+                "hint": "This is so that we can send you a confirmation email and get in contact with you quickly if we have any questions",
+                "label": "Email address (optional)",
+                "name": "auto_name__40",
+                "validation": {
+                  "required": false
+                }
+              },
+              {
+                "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__5--fieldset--textarea.auto_name__42",
+                "_type": "textarea",
+                "label": "Address",
+                "name": "auto_name__42"
+              }
+            ]
+          },
+          "label": "Post",
+          "value": "auto_value__5"
         }
       ],
-      "legend": "How would you like to receive your data?",
-      "name": "auto_name__40"
+      "legend": "How would you like to receive your data? ",
+      "name": "auto_name__16"
     }
   ],
   "url": "receive-data"

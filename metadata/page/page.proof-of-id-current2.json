@@ -1,0 +1,44 @@
+{
+  "_id": "page.proof-of-id-current2",
+  "_type": "page.form",
+  "body": "Proof of identity can be confirmed by providing a copy of the front page of your last wage slip (which must be dated within the last three months), or emailing us from your government email address.",
+  "components": [
+    {
+      "_id": "page.proof-of-id-current2--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "hint": "Guidance for how to do this will be given to you on form completion",
+          "label": "By sending an email from my government email address ",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__8",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__8--upload.auto_name__41",
+            "_type": "upload",
+            "label": "Upload a copy of your wage slip ",
+            "name": "auto_name__41"
+          },
+          "label": "By uploading a copy of my wage slip ",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "How would you like to prove your identity? ",
+      "name": "auto_name__2"
+    }
+  ],
+  "heading": "Proof of identity",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "steps": [
+    "page.proof-of-id-current2-check"
+  ],
+  "url": "proof-of-id-current"
+}

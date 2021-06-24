@@ -37,8 +37,5 @@
     "operator": "is",
     "value": "auto_value__1"
   },
-  "steps": [
-    "page.proof-of-id-current2-check"
-  ],
   "url": "proof-of-id-current"
 }

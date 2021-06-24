@@ -1,41 +1,39 @@
 {
-  "_id": "page.proof-of-id-current2",
+  "_id": "page.proof-of-id-current2--2",
   "_type": "page.form",
   "body": "Proof of identity can be confirmed by providing a copy of the front page of your last wage slip (which must be dated within the last three months), or emailing us from your government email address.",
   "components": [
     {
-      "_id": "page.proof-of-id-current2--radios.auto_name__2",
+      "_id": "page.proof-of-id-current2--2--radios.auto_name__41",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__7",
+          "_id": "page.proof-of-id-current2--2--radios.auto_name__41--radio.auto_value__1",
           "_type": "radio",
           "hint": "Guidance for how to do this will be given to you on form completion",
           "label": "By sending an email from my government email address ",
-          "value": "auto_value__7"
+          "value": "auto_value__1"
         },
         {
-          "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__8",
+          "_id": "page.proof-of-id-current2--2--radios.auto_name__41--radio.auto_value__1--2",
           "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.proof-of-id-current2--radios.auto_name__2--radio.auto_value__8--upload.auto_name__41",
-            "_type": "upload",
-            "label": "Upload a copy of your wage slip ",
-            "name": "auto_name__41"
-          },
           "label": "By uploading a copy of my wage slip ",
-          "value": "auto_value__8"
+          "value": "auto_value__1"
         }
       ],
-      "legend": "How would you like to prove your identity? ",
-      "name": "auto_name__2"
+      "legend": "How would you like to prove your identity?",
+      "name": "auto_name__41"
     }
   ],
+  "enableSteps": true,
   "heading": "Proof of identity",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
     "value": "auto_value__1"
   },
-  "url": "proof-of-id-current"
+  "steps": [
+    "page.upload-id"
+  ],
+  "url": "proof-of-id-current2"
 }

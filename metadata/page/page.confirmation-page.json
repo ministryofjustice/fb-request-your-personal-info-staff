@@ -3,10 +3,10 @@
   "_type": "page.confirmation",
   "heading": "Application complete",
   "show": {
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__41",
     "negated": true,
     "operator": "is",
-    "value": "auto_value__7"
+    "value": "auto_value__1"
   },
   "url": "application-complete"
 }

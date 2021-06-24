@@ -10,14 +10,9 @@
   ],
   "heading": "Application complete",
   "show": {
-    "0": {
-      "identifier": "auto_name__1",
-      "operator": "is",
-      "value": "auto_value__1"
-    },
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__41",
     "operator": "is",
-    "value": "auto_value__7"
+    "value": "auto_value__1"
   },
   "url": "application-complete-send-email"
 }

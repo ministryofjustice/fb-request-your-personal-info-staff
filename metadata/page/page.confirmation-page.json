@@ -1,0 +1,12 @@
+{
+  "_id": "page.confirmation-page",
+  "_type": "page.confirmation",
+  "heading": "Application complete",
+  "show": {
+    "identifier": "auto_name__2",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__7"
+  },
+  "url": "application-complete"
+}

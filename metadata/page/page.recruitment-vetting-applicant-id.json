@@ -12,8 +12,18 @@
   "enableSteps": true,
   "sectionHeading": "Recruitment/ vetting records",
   "show": {
-    "identifier": "auto_name__9",
-    "operator": "defined"
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "auto_name__9",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "auto_value__3"
+      }
+    ]
   },
   "steps": [
     "page.recruitment-vetting-applicant-vacancy-number"

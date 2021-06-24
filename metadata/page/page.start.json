@@ -47,7 +47,8 @@
     "page.other-information",
     "page.receive-data",
     "page.check-answers",
-    "page.application-complete"
+    "page.application-complete",
+    "page.confirmation-page"
   ],
   "url": "/"
 }

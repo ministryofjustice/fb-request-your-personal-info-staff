@@ -38,7 +38,7 @@
                 "label": "Email address (optional)",
                 "name": "auto_name__40",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               },
               {
@@ -47,7 +47,7 @@
                 "label": "Address",
                 "name": "auto_name__42",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               }
             ]

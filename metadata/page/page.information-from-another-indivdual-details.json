@@ -117,8 +117,6 @@
     "identifier": "auto_name__12",
     "operator": "defined"
   },
-  "steps": [
-    "page.information-from-another-indivdual-information-requested"
-  ],
+  "steps": [],
   "url": "information-from-another-indivdual-details"
 }

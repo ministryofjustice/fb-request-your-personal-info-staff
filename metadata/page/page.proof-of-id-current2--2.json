@@ -25,15 +25,13 @@
       "name": "auto_name__41"
     }
   ],
-  "enableSteps": true,
+  "enableSteps": false,
   "heading": "Proof of identity",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
     "value": "auto_value__1"
   },
-  "steps": [
-    "page.upload-id"
-  ],
+  "steps": [],
   "url": "proof-of-id-current"
 }

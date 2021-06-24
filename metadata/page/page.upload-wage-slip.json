@@ -1,0 +1,19 @@
+{
+  "_id": "page.upload-wage-slip",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.upload-wage-slip--upload.auto_name__2",
+      "_type": "upload",
+      "label": "Upload a copy of the front cover of your latest wage slip",
+      "name": "auto_name__2"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__41",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "steps": [],
+  "url": "upload-wage-slip"
+}

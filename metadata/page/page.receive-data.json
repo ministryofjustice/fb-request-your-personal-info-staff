@@ -16,10 +16,17 @@
             "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__4--email.auto_name__36",
             "_type": "email",
             "label": "Email address",
-            "name": "auto_name__36"
+            "name": "auto_name__36",
+            "validation": {
+              "required": {
+                "identifier": "auto_name__16",
+                "operator": "is",
+                "value": "email"
+              }
+            }
           },
           "label": "Email",
-          "value": "auto_value__4"
+          "value": "email"
         },
         {
           "$component": true,
@@ -38,7 +45,7 @@
                 "label": "Email address (optional)",
                 "name": "auto_name__40",
                 "validation": {
-                  "required": true
+                  "required": false
                 }
               },
               {
@@ -47,13 +54,17 @@
                 "label": "Address",
                 "name": "auto_name__42",
                 "validation": {
-                  "required": true
+                  "required": {
+                    "identifier": "auto_name__16",
+                    "operator": "is",
+                    "value": "post"
+                  }
                 }
               }
             ]
           },
           "label": "Post",
-          "value": "auto_value__5"
+          "value": "post"
         }
       ],
       "legend": "How would you like to receive your data? ",

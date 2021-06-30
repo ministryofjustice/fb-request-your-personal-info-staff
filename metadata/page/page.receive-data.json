@@ -44,6 +44,14 @@
                 "hint": "This is so that we can send you a confirmation email and get in contact with you quickly if we have any questions",
                 "label": "Email address (optional)",
                 "name": "auto_name__40",
+<<<<<<< HEAD
+=======
+                "show": {
+                  "identifier": "auto_name__16",
+                  "operator": "is",
+                  "value": "post"
+                },
+>>>>>>> parent of 699e20f (Update page.receive-data.json)
                 "validation": {
                   "required": false
                 }
@@ -53,6 +61,14 @@
                 "_type": "textarea",
                 "label": "Address",
                 "name": "auto_name__42",
+<<<<<<< HEAD
+=======
+                "show": {
+                  "identifier": "auto_name__16",
+                  "operator": "is",
+                  "value": "post"
+                },
+>>>>>>> parent of 699e20f (Update page.receive-data.json)
                 "validation": {
                   "required": {
                     "identifier": "auto_name__16",
@@ -61,7 +77,13 @@
                   }
                 }
               }
-            ]
+            ],
+            "legend": "Contact details",
+            "show": {
+              "identifier": "auto_name__16",
+              "operator": "is",
+              "value": "post"
+            }
           },
           "label": "Post",
           "value": "post"

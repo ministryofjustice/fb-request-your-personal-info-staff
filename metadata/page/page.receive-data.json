@@ -77,7 +77,12 @@
                 }
               }
             ],
-            "legend": "Contact details"
+            "legend": "Contact details",
+            "show": {
+              "identifier": "auto_name__16",
+              "operator": "is",
+              "value": "post"
+            }
           },
           "label": "Post",
           "value": "post"

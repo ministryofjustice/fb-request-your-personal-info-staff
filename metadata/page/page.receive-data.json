@@ -46,6 +46,7 @@
               {
                 "_id": "page.receive-data--radios.auto_name__16--radio.auto_value__5--fieldset--2--email.auto_name__37",
                 "_type": "email",
+                "hint": "This is so that we can send you a confirmation email and get in contact with you quickly if we have any questions",
                 "label": "Email address (optional)",
                 "name": "auto_name__37",
                 "validation": {
@@ -61,7 +62,13 @@
                   "required": false
                 }
               }
-            ]
+            ],
+            "legend": "Contact details",
+            "show": {
+              "identifier": "auto_name__16",
+              "operator": "is",
+              "value": "post"
+            }
           },
           "label": "Post",
           "value": "post"

@@ -3,10 +3,24 @@
   "_type": "page.confirmation",
   "heading": "Application complete",
   "show": {
-    "identifier": "auto_name__41",
-    "negated": true,
-    "operator": "is",
-    "value": "auto_value__1"
+    "any": [
+      {
+        "identifier": "auto_name__41",
+        "operator": "is",
+        "value": "wage_slip"
+      },
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "auto_value__2"
+      },
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "auto_value__3"
+      }
+    ],
+    "conditionsType": "any"
   },
   "url": "application-complete"
 }

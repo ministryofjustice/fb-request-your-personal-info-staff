@@ -52,8 +52,10 @@
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
-    "value": "auto_value__3"
+    "value": "auto_value__1"
   },
-  "steps": [],
+  "steps": [
+    "page.upload-wage-slip2"
+  ],
   "url": "proof-of-id-current"
 }

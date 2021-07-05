@@ -21,7 +21,7 @@
     "identifier": "auto_name__1",
     "negated": true,
     "operator": "is",
-    "value": "auto_value__3"
+    "value": "auto_value__1"
   },
   "steps": [
     "page.proof-of-id-ex-check"

@@ -2,7 +2,7 @@
   "_id": "page.start",
   "_type": "page.start",
   "actionType": "continue",
-  "body": "Use this service to:\r\n\r\n* request personal information about you that is held on the Ministry of Justice's records in HM Prison and Probation services.\r\n* this is also  known as a 'subject access request'\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
+  "body": "Use this form to request personal information about you held by Her Majesty's Prison and Probation Service.\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
   "components": [
     {
       "$component": true,
@@ -10,7 +10,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "We aim to respond to all requests within one calendar month"
+      "html": "We aim to respond to all requests within a month."
     },
     {
       "$component": true,
@@ -18,14 +18,14 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "### Before you start \r\n\r\nSo we can answer your subject access request you must send us two things:\r\n\r\n1. A description of where your personal data may be held. \r\nPlease ensure that you provide details of where in the department your personal data may be held to help us to trace your records. For example, details of which court or prison you may have had dealings with, including any relevant case reference numbers and dates. Please be as specific as possible.\r\n\r\n2. Valid identification.\r\n\r\nAcceptable forms of ID include:\r\n\r\n* a photocopy of your passport or driving license\r\n* an electricity bill (a copy of the original bill)\r\n* a gas bill (a copy of the original bill)\r\n* a council tax bill (a copy of the original bill)\r\n* any other bill in your full name (a copy of the original bill)\r\n\r\nAny bill you send must be less than 6 months old.\r\n\r\nWe may charge you a fee to process your SAR if it is excessive."
+      "html": "### Before you start \r\n\r\nYou will need to provide some personal details to help us find your information  faster: \r\n\r\n* your name\r\n* prison number\r\n* date of birth.\r\n\r\nThe more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nWe may charge you a fee to process your request if it is excessive. We will contact you to discuss before proceeding with the request.\r\n\r\nThis request will be submitted under Rule 39 which means only you will have access to any information we send you. \r\n\r\nWe will only send information once so you may wish to consider sharing it with your solicitor."
     }
   ],
   "extraComponents": [
     {
       "_id": "page.start--content--3",
       "_type": "content",
-      "html": "You can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg).\r\n\r\nYou cannot use this service if you’re in the UK illegally."
+      "html": "You can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg)."
     }
   ],
   "heading": "Request your personal information",
@@ -39,16 +39,15 @@
     "page.national-insurance-number",
     "page.employee-number",
     "page.what-data-would-you-like",
-    "page.time-period",
     "page.recruitment-vetting-applicant-id",
     "page.attendance-data",
     "page.performance-management",
     "page.information-from-another-indivdual-details",
     "page.retirement-pension",
     "page.other-information",
+    "page.time-period",
     "page.receive-data",
     "page.check-answers",
-    "page.application-complete",
     "page.confirmation-page"
   ],
   "url": "/"

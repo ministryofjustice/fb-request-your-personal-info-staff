@@ -27,6 +27,7 @@
         {
           "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
+          "hint": "For example; message correspondence and recordings",
           "label": "Information from an individual",
           "name": "auto_name__12"
         },
@@ -45,7 +46,13 @@
         {
           "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15",
           "_type": "checkbox",
-          "label": "Other",
+          "conditionalComponent": {
+            "_id": "page.what-data-would-you-like--checkboxes--checkbox.auto_name__15--textarea.auto_name__3",
+            "_type": "textarea",
+            "label": "Please specify what other data you would like",
+            "name": "auto_name__3"
+          },
+          "label": "Something else",
           "name": "auto_name__15"
         }
       ],

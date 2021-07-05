@@ -1,11 +1,12 @@
 {
   "_id": "page.time-period",
   "_type": "page.form",
+  "body": "Leave this page blank if you would like information since the start of your sentence, or can't remember",
   "components": [
     {
       "_id": "page.time-period--date.auto_name__22",
       "_type": "date",
-      "legend": "Start date",
+      "legend": "From",
       "name": "auto_name__22",
       "validation": {
         "required": false
@@ -14,13 +15,14 @@
     {
       "_id": "page.time-period--date.auto_name__23",
       "_type": "date",
-      "legend": "End date",
+      "legend": "To",
       "name": "auto_name__23",
       "validation": {
         "required": false
       }
     }
   ],
-  "heading": "What is the time period of the data you are requesting? (optional)",
+  "heading": "What dates do you want this information for? (Optional)",
+  "lede": "We can respond faster if you know roughly when you want your information from",
   "url": "time-period"
 }

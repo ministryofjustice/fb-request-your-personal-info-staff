@@ -4,16 +4,16 @@
   "body": "This can be a copy of a recent utility bill (dated within the last three months) or, if you were recently an employee, a copy of your wage slip (dated within the last three months). Please also provide a copy of the photograph page of your passport or driving licence.",
   "components": [
     {
-      "_id": "page.proof-of-id-ex--upload.auto_name__3",
+      "_id": "page.proof-of-id-ex--upload.auto_name__43",
       "_type": "upload",
       "label": "Upload a copy of a recent utility bill or your Ministry of Justice wage slip",
-      "name": "auto_name__3"
+      "name": "auto_name__43"
     },
     {
-      "_id": "page.proof-of-id-ex--upload.auto_name__4",
+      "_id": "page.proof-of-id-ex--upload.auto_name__44",
       "_type": "upload",
-      "label": "Upload a copy of your passport or driving licence ",
-      "name": "auto_name__4"
+      "label": "Upload a copy of your passport or driving licence",
+      "name": "auto_name__44"
     }
   ],
   "heading": "Proof of identity",
@@ -21,8 +21,10 @@
     "identifier": "auto_name__1",
     "negated": true,
     "operator": "is",
-    "value": "auto_value__1"
+    "value": "auto_value__3"
   },
-  "steps": [],
+  "steps": [
+    "page.proof-of-id-ex-check"
+  ],
   "url": "proof-of-id-ex"
 }

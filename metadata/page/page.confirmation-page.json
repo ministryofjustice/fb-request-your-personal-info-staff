@@ -1,7 +1,15 @@
 {
   "_id": "page.confirmation-page",
   "_type": "page.confirmation",
-  "heading": "Application complete",
+  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to you sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive",
+  "components": [
+    {
+      "_id": "page.confirmation-page--inset",
+      "_type": "inset",
+      "html": "Your request can be referenced using your name and national insurance number"
+    }
+  ],
+  "heading": "Request sent",
   "show": {
     "any": [
       {
